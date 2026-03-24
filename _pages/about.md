@@ -23,10 +23,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+
 ---
 
 I am currently a PhD student at Imperial College London, where I am fortunate to be supervised by [Prof. Cong Ling](https://profiles.imperial.ac.uk/c.ling). My work explores connections between information theory and learning theory, with a focus on the role of Shannon-theoretic principles in machine learning and privacy. In particular, I am interested in how information-theoretic ideas can help better understand and improve large language models and modern generative models.
