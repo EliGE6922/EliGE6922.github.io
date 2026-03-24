@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, <a href='https://www.imperial.ac.uk/'>Imperial College London</a>
+subtitle: Welcome to my website :)
+
 
 profile:
   align: right
@@ -28,10 +29,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a PhD student at Imperial College London, where I am fortunate to be supervised by [Prof. Cong Ling](https://profiles.imperial.ac.uk/c.ling). My work explores connections between information theory and learning theory, with a focus on the role of Shannon-theoretic principles in machine learning, deep learning and privacy.
+I am currently a PhD student at Imperial College London, where I am fortunate to be supervised by [Prof. Cong Ling](https://profiles.imperial.ac.uk/c.ling). My work explores connections between information theory and learning theory, with a focus on the role of Shannon-theoretic principles in machine learning, deep learning, generative modeling and privacy.
 
 I received my Master's degree from the University of Sydney, where I was fortunate to be supervised by [Prof. Yonghui Li](https://profiles.sydney.edu.au/yonghui.li).
 
-Before my PhD, I spent an inordinate amount of time playing CS:GO — a phase I have (mostly) grown out of. ^^
+Before my PhD, I spent an inordinate amount of time playing CS:GO — a phase I have (mostly) grown out of. ^^ Check out my [FACEIT profile](https://www.faceit.com/zh/players/cHrisJEliGE)!
 
 
