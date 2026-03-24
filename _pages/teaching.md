@@ -8,8 +8,9 @@ nav_order: 6
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Graduate Teaching Assistant
+I serve as a Graduate Teaching Assistant in the Department of Electrical and Electronic Engineering at Imperial College London, supporting courses taught by Prof. Cong Ling:
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+- **Information Theory**
+- **Probability and Stochastic Processes**
+- **Laboratory in Commutation and Signal Processing (CSP)**
