@@ -30,6 +30,6 @@ I am currently a PhD student at Imperial College London, where I am fortunate to
 
 I received my Master's degree from the University of Sydney, where I was fortunate to be supervised by [Prof. Yonghui Li](https://profiles.sydney.edu.au/yonghui.li).
 
-Before my PhD, I largely squandered my odyssey years on CS:GO — perhaps not the most wisely spent years. Check out my [FACEIT profile](https://www.faceit.com/zh/players/cHrisJEliGE) :(
+Before my PhD, I largely squandered my odyssey years on CS:GO — perhaps not the most wisely spent years. ;( Check out my [FACEIT profile](https://www.faceit.com/zh/players/cHrisJEliGE).
 
 
