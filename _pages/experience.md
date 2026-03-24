@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /experience/
-title: experience
+title: Experience
 description: Industry experience before my PhD.
 nav: true
 nav_order: 3
