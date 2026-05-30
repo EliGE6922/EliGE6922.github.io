@@ -39,7 +39,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-information-theoretic-learning-for-diffusion-models-with-warm-start-has-been-accepted-by-neurips-2025",
           title: 'Our paper “Information Theoretic Learning for Diffusion Models with Warm Start” has been...',
           description: "",
-          section: "News",},{id: "news-finished-a-rewarding-two-month-visiting-stay-at-shanghai-jiao-tong-university-hosted-by-prof-wang-jia-i-learned-a-great-deal-and-enjoyed-many-stimulating-discussions-on-generative-modeling-and-information-theory",
+          section: "News",},{id: "news-finished-a-rewarding-two-month-visiting-stay-at-shanghai-jiao-tong-university-hosted-by-prof-jia-wang-i-learned-a-great-deal-and-enjoyed-many-stimulating-discussions-on-generative-modeling-and-information-theory",
           title: 'Finished a rewarding two-month visiting stay at Shanghai Jiao Tong University, hosted by...',
           description: "",
           section: "News",},{id: "news-our-paper-smoothing-linear-codes-by-rényi-divergence-and-applications-to-security-reduction-has-been-accepted-by-ieee-isit-2026",
