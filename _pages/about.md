@@ -26,7 +26,7 @@ announcements:
 
 ---
 
-I am currently a PhD student at Imperial College London, where I am fortunate to be supervised by [Prof. Cong Ling](https://profiles.imperial.ac.uk/c.ling). My work explores connections between information theory and learning theory, with a focus on the role of Shannon-theoretic principles in machine learning and privacy. In particular, I am interested in how information-theoretic ideas can help better understand and improve large language models and modern generative models.
+I am currently a PhD student at Imperial College London, where I am fortunate to be supervised by [Prof. Cong Ling](https://profiles.imperial.ac.uk/c.ling). I study information theory and learning theory, focusing on Shannon-theoretic foundations of machine learning and privacy. My research explores how information-theoretic principles can be used to better understand and improve large language models and modern generative models.
 
 I received my Master's degree from the University of Sydney, where I was fortunate to be supervised by [Prof. Yonghui Li](https://profiles.sydney.edu.au/yonghui.li).
 
