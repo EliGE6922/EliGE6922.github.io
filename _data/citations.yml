@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2026-04-01'
+  last_updated: '2026-06-10'
 papers:
   DdudKisAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: 'Generalized Score Matching: Bridging -Divergence and Statistical Estimation Under Correlated Noise'
     year: '2025'
   DdudKisAAAAJ:u-x6o8ySG0sC:
-    citations: 5
+    citations: 6
     title: Information theoretic learning for diffusion models with warm start
     year: '2025'
