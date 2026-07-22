@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-07-22'
 papers:
+  DdudKisAAAAJ:9yKSN-GCB0IC:
+    citations: 0
+    title: "R\xE9nyi Diffusion Models"
+    year: Unknown Year
   DdudKisAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: 'Generalized Score Matching: Bridging -Divergence and Statistical Estimation Under Correlated Noise'
