@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-09-02'
 papers:
+  DdudKisAAAAJ:2osOgNQ5qMEC:
+    citations: 4
+    title: "Smoothing linear codes by R\xE9nyi divergence and applications to security reduction"
+    year: '2026'
   DdudKisAAAAJ:9yKSN-GCB0IC:
     citations: 0
     title: "R\xE9nyi Diffusion Models"
