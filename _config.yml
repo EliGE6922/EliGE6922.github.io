@@ -8,14 +8,14 @@ last_name: Shen
 contact_note: >
   I am open to collaborations and discussions—please feel free to reach out anytime.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-    Personal website of Yirong Shen, PhD student at Imperial College London, researching Information Theory.
+  Yirong Shen is a PhD student at Imperial College London, with research interests
+  in information theory and machine learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Yirong Shen, 沈毅荣, Imperial College London, information theory, machine learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 💩 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg
 
 url: https://EliGE6922.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -52,8 +52,6 @@ external_services:
 # Layout
 # -----------------------------------------------------------------------------
 
-
-
 # Dimensions
 max_width: 930px
 
@@ -62,7 +60,7 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -122,17 +120,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: [] # Add your own external writing here when available.
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -194,6 +182,14 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # Unused template pages and course assets are kept in source only.
+  - _pages/profiles.md
+  - _pages/repositories.md
+  - _pages/projects.md
+  - _pages/books.md
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _teachings/
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -273,8 +269,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Shen]
+  first_name: [Yirong, Y.]
 
   style: apa
   locale: en
@@ -294,6 +290,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: [year, month]
+  order: descending
   group_by: year
   group_order: descending
 
@@ -642,25 +640,3 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references

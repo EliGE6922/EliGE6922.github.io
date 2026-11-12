@@ -1,0 +1,20 @@
+<div class="photography-gallery pswp-gallery">
+  {% for photo in page.photos %}
+    {% assign photo_path = '/assets/img/photography/' | append: photo.file %}
+    <a
+      href="{{ photo_path | relative_url }}"
+      data-pswp-width="{{ photo.width }}"
+      data-pswp-height="{{ photo.height }}"
+      aria-label="View photo: {{ photo.alt | escape }}"
+    >
+      {%
+        include figure.liquid
+        path=photo_path
+        alt=photo.alt
+        width=photo.width
+        height=photo.height
+        sizes='(max-width: 575px) 95vw, (max-width: 930px) 46vw, 450px'
+      %}
+    </a>
+  {% endfor %}
+</div>

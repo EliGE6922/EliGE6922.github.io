@@ -61,10 +61,12 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: inherit;
+    font-size: 0.95rem;
+    line-height: 1.5;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
     }
   }
@@ -258,4 +260,41 @@ ul.task-list input[type="checkbox"] {
 
 .d2h-diff-table {
   position: relative;
+}
+
+// Photography
+
+.photography-gallery {
+  columns: 2;
+  column-gap: 1.5rem;
+
+  a {
+    display: block;
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+    cursor: zoom-in;
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 5px;
+    }
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 575px) {
+    columns: 1;
+
+    a {
+      margin-bottom: 1.25rem;
+    }
+  }
 }
